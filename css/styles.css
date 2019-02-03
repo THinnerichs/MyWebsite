@@ -56,12 +56,12 @@ main > .tagline {
 }
 
 main > .img-circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
 }
 
 body > .headline {
@@ -70,7 +70,12 @@ body > .headline {
   font-weight: 100;
 }
 
-body > .currivitae {
+body > .simpletext {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+
   font-size: 1.0rem;
   margin: 1.0rem 0;
   font-weight: 50;
