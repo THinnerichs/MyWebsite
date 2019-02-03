@@ -69,3 +69,13 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+main {
+	margin: 0;
+}
+
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
