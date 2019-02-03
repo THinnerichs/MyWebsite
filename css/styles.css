@@ -55,6 +55,28 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .img-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+body > .headline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+}
+
+body > .currivitae {
+  font-size: 1.0rem;
+  margin: 1.0rem 0;
+  font-weight: 50;
+  padding: 0 40px;
+}
+
 .icons-social i {
 	padding: 10px;
 }
@@ -70,8 +92,14 @@ main > .tagline {
 	height: 2.65rem;
 }
 
-main {
-	margin: 0;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 0px;
+  text-align: center;
 }
 
 #over img {
