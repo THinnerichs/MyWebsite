@@ -72,6 +72,7 @@ body > .headline {
   font-weight: 100;
   width: 80%;
   text-align: justify;
+  color: #303F9F;
 }
 
 body > .simpletext {
@@ -83,6 +84,7 @@ body > .simpletext {
 
   font-size: 1.0rem;
   margin: auto;
+  margin-bottom: 30px;
   font-weight: 30;
   padding: 0;
 }
@@ -116,4 +118,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+td.description {
+  vertical-align: top;
 }
