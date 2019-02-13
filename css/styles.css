@@ -66,20 +66,25 @@ main > .img-circle {
 
 body > .headline {
   font-size: 1.5rem;
-  margin: 1.5rem 0;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;<`2`>
   font-weight: 100;
+  width: 80%;
+  text-align: justify;
 }
 
 body > .simpletext {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
+  width: 80%;
+  text-align: justify;
 
   font-size: 1.0rem;
-  margin: 1.0rem 0;
-  font-weight: 50;
-  padding: 0 40px;
+  margin: auto;
+  font-weight: 30;
+  padding: 0;
 }
 
 .icons-social i {
